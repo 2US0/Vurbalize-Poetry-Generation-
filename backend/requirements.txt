@@ -1,0 +1,7 @@
+Flask
+flask-socketio
+openai
+textblob
+emotion_analysis
+google-generativeai
+
