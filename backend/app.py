@@ -98,4 +98,4 @@ def handle_generate_poem(data):
     emit('poem_response', result)
 
 if __name__ == '__main__':
-    socketio.run(app)
+    socketio.run(app, allow_unsafe_werkzeug=True)
