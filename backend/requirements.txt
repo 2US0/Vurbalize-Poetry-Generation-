@@ -4,3 +4,4 @@ openai
 textblob
 emotion_analysis
 google-generativeai
+flask-cors
