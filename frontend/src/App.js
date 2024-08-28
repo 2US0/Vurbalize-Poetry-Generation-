@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import PoemInput from './components/PoemInput';
 import PoemDisplay from './components/PoemDisplay';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://vurbalize-poetry-generation.onrender.com');
 
 const AppContainer = styled.div`
   display: flex;

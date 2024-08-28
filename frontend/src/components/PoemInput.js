@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 import PoemTypes from "./PoemTypes";
 import BouncingDotsLoader from "./BouncingDotsLoader";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://vurbalize-poetry-generation.onrender.com");
 
 socket.on("connect", () => {
   console.log("Connected to server");
