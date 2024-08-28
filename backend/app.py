@@ -6,8 +6,8 @@ import os
 from transformers import pipeline
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
-socketio = SocketIO(app, cors_allowed_origins="http://localhost:3000")
+CORS(app, resources={r"/*": {"origins": "*"}})
+socketio = SocketIO(app, cors_allowed_origins="*")
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
