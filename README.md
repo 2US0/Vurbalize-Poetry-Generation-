@@ -1,7 +1,3 @@
-Here's a detailed README file for your Real-time AI Poetry Generation with Emotion Visualization project, reflecting your use of Vercel for frontend deployment and Render for backend deployment:
-
----
-
 # Real-time AI Poetry Generation with Emotion Visualization
 
 ## Project Overview
@@ -74,12 +70,12 @@ This project is a web application that allows users to generate poems using a la
    npm start
    ```
 
-3. Open your browser and go to `http://localhost:3000`.
+3. Open your browser and go to `https://verse-craft.vercel.app/`.
 
 ### Deployment
 
-- **Frontend**: Deployed on Vercel. You can find the live application at [your Vercel deployment link].
-- **Backend**: Deployed on Render. Backend API is accessible at [your Render deployment link].
+- **Frontend**: Deployed on Vercel.
+- **Backend**: Deployed on Render.
 
 ## Thought Process
 
@@ -89,23 +85,5 @@ The main focus of this project was to create an engaging user experience that bl
 
 - Added functionality for preset poem types (e.g., sonnet, haiku) to streamline the poem generation process.
 - The application generates a random poem if no prompt is provided by the user.
-
-## Future Enhancements
-
-- **Login/Signup Functionality**: Allow users to create accounts, save poems, and bookmark favorite poems for future reference.
-- **Enterprise Features**: Enhance security, scalability, and user personalization to make the app ready for enterprise-level deployment.
-
-## Test Cases
-
-1. **Prompt Entry and Poem Generation**: Verify that entering a prompt generates a poem in real-time.
-2. **Emotion Analysis and Visualization**: Check that the emotion analysis runs correctly after the poem generation, and the visualization dynamically updates based on the emotions detected.
-3. **Random Poem Generation**: Ensure that the app generates a random poem when no prompt is provided.
-4. **Preset Selection**: Test different poem types (e.g., haiku, sonnet) and confirm that the correct preset parameters are applied.
-5. **Error Handling**: Validate error handling when there are connectivity issues or failures in generating a poem.
-
-## How to Run the App in Production
-
-1. Ensure that the backend is deployed on Render, and the frontend is deployed on Vercel.
-2. The frontend communicates with the backend through API requests, so ensure the Render backend URL is correctly configured in your React application.
 
 
